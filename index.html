@@ -162,7 +162,7 @@
         });
         const sigData = await sigs.json();
         if (!sigData.result?.length) {
-          tokenDisplay.textContent = "No transactions yet";
+          tokenDisplay.textContent = "Loading...";
           return;
         }
 
